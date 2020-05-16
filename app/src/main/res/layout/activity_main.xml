@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen150"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen100"
+            android:src="@drawable/ic_welcome_parent" />
+
+        <TextView
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen5"
+            android:gravity="center"
+            android:text="@string/tagline"
+            android:textColor="@color/fontPrimary"
+            android:textSize="@dimen/font20"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginStart="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginEnd="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:text="@string/panggilan"
+            android:textColor="@color/fontPrimary"
+            android:textSize="@dimen/font14"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginEnd="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:hint="@string/isinama"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/font"
+            android:textSize="@dimen/font14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginStart="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginEnd="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:text="@string/jeniskelamin"
+            android:textColor="@color/fontPrimary"
+            android:textSize="@dimen/font14"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginEnd="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lakilaki"
+                android:textColor="@color/font"/>
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/perempuan"
+                android:textColor="@color/font"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen1"
+            android:background="@color/font"
+            android:layout_marginStart="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginEnd="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginStart="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginEnd="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:text="@string/umur"
+            android:textColor="@color/fontPrimary"
+            android:textSize="@dimen/font14"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginEnd="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:hint="@string/cthumur"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/font"
+            android:textSize="@dimen/font14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginEnd="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:text="@string/warning"
+            android:textColor="@color/fontPrimary"
+            android:textSize="@dimen/font14"/>
+
+        <Button
+                style="@style/RegButton"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/dimen20"
+                android:layout_marginLeft="@dimen/dimen20"
+                android:layout_marginEnd="@dimen/dimen20"
+                android:layout_marginRight="@dimen/dimen20"
+                android:clickable="true"
+                android:text="@string/daftar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
